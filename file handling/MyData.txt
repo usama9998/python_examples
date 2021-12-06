@@ -1,0 +1,4 @@
+Hello
+This is file
+Let's read it and write it
+It appendingIt's appending againIt's appending againIt's appending again

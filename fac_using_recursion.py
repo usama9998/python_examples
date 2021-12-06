@@ -6,3 +6,8 @@ def fact(n):
 
 result=fact(5)
 print(result)
+
+a="Usama1"
+print(a[2:4])
+print(a[-1])
+print('Telusko \n rocks')
