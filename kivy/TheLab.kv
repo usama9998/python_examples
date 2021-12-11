@@ -1,0 +1,37 @@
+AnchorLayoutExample:
+<AnchorLayoutExample>:
+    Button:
+        text: "A"
+
+<BoxLayOutExample>:
+    orientation: "horizontal"
+    Button:
+        text: "Click Here"
+        size_hint: None, None    # it is relative I can block it by none and use manual behave
+        size:"80dp","80dp"
+        # x, center_x, right,,, it is for vertical orientation
+        # y,center_y,top,,,,,,,,it is for horizontal orientation
+        pos_hint: {"y": .1}
+    BoxLayout:
+        orientation: "vertical"
+        spacing: "10dp"
+        Button:
+            text: "Click Here"
+            size_hint: 1,1
+        Button:
+            text: "Click Here 1"
+            size_hint: 1,1
+        Button:
+            text: "Click Here 2"
+            size_hint: 1,1
+        Button:
+            text: "Click Here 3"
+            size_hint: 1,1
+
+        
+    
+    Label:
+        text: "Hi"
+        size_hint: 1, 0.5
+
+        
